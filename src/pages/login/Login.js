@@ -4,6 +4,14 @@ import Button from '../../components/Button.js'
 
 
 const Login = () => {
+    const handleSignIn=(e)=>{
+        e.preventDefault();
+        const email=e.target.email.value;
+        const password=e.target.password.value;
+        const user={email,password};
+        console.log(user);
+        e.target.reset();
+    }
   return (
     <div className='flex justify-center items-center pt-8'>
       <div className='flex flex-col max-w-md p-6 rounded-md sm:p-10 bg-[#86b2b2] text-white'>
@@ -14,6 +22,7 @@ const Login = () => {
           </p>
         </div>
         <form
+        onSubmit={handleSignIn}
           noValidate=''
           action=''
           className='space-y-6 ng-untouched ng-pristine ng-valid'
@@ -53,7 +62,7 @@ const Login = () => {
           <div>
             <Button
               type='submit'
-              classes='w-full px-8 py-3 font-semibold rounded-md bg-gray-900 hover:bg-gray-700 hover:text-white text-gray-100'
+              classes='w-full px-8 py-3 font-semibold rounded-md bg-gray-400 hover:bg-gray-700 hover:text-white text-gray-100'
             >
               Sign in
             </Button>

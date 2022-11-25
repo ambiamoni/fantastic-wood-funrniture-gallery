@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="hero mt-20" style={{ backgroundImage: `url("https://media.istockphoto.com/id/1293762741/photo/modern-living-room-interior-3d-render.jpg?b=1&s=170667a&w=0&k=20&c=Ko289acalSrEKwYI5sb20u2WQa7KS9L-_0Ug4u2iEmc=")` }}>
         <div className="hero-overlay bg-opacity-80"></div>
-        <footer className="footer p-10 text-white mt-4">
+        <footer className="footer py-20 px-20 text-white mt-4">
         <div >
           <span className="footer-title text-white">Services</span> 
           <a className="link link-hover">Branding</a> 

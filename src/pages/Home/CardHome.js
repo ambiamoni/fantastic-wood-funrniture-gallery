@@ -86,7 +86,7 @@ const CardHome = () => {
             <p className="py-6">
               Are you interested in building your own furniture but do not know
               where to start? At Birchwood Furniture, we know everything when it
-              comes to furniture–including which building materials are best.
+              comes to furniture including which building materials are best.
               While almost any type of wood can be used to build furniture, some
               woods are a better choice depending on your goals, your budget
             </p>

@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button.js";
 
 
 const Features = () => {
@@ -16,9 +17,9 @@ const Features = () => {
               lounge, or cuddle up to long-lasting relaxation on your customized
               sofa. You will find it in our showroom.
             </p>
-            <button className="pt-3 pb-3 pr-8 pl-8 bg-[#547e7e] border-0 text-white hover:bg-[#7d9c9c]">
+            <Button>
               KNOW DETAILS
-            </button>
+            </Button>
           </div>
         </div>
       </div>
@@ -34,9 +35,9 @@ const Features = () => {
               lounge, or cuddle up to long-lasting relaxation on your customized
               sofa. You will find it in our showroom.
             </p>
-            <button className="pt-3 pb-3 pr-8 pl-8 bg-[#547e7e] border-0 text-white hover:bg-[#7d9c9c]">
+            <Button>
               KNOW DETAILS
-            </button>
+            </Button>
           </div>
           <img src="	https://birchwoodfurniture.ca/wp-content/uploads/2020/03/diningroom.jpg" />
         </div>
@@ -53,9 +54,9 @@ const Features = () => {
               lounge, or cuddle up to long-lasting relaxation on your customized
               sofa. You will find it in our showroom.
             </p>
-            <button className="pt-3 pb-3 pr-8 pl-8 bg-[#547e7e] border-0 text-white hover:bg-[#7d9c9c]">
+            <Button>
               KNOW DETAILS
-            </button>
+            </Button>
           </div>
         </div>
       </div>

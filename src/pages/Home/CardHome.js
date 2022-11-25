@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../components/Button.js";
 
 const CardHome = () => {
   return (
@@ -20,9 +21,9 @@ const CardHome = () => {
               While almost any type of wood can be used to build furniture, some
               woods are a better choice depending on your goals, your budget
             </p>
-            <button className="pt-3 pb-3 pr-10 pl-10 bg-[#547e7e] border-0 text-white hover:bg-[#7d9c9c]">
+            <Button>
               LEARN MORE
-            </button>
+            </Button>
           </div>
         </div>
       </div>
@@ -43,9 +44,9 @@ const CardHome = () => {
               While almost any type of wood can be used to build furniture, some
               woods are a better choice depending on your goals, your budget
             </p>
-            <button className="pt-3 pb-3 pr-10 pl-10 bg-[#547e7e] border-0 text-white hover:bg-[#7d9c9c]">
+            <Button>
               LEARN MORE
-            </button>
+            </Button>
           </div>
         </div>
       </div>
@@ -67,9 +68,9 @@ const CardHome = () => {
               While almost any type of wood can be used to build furniture, some
               woods are a better choice depending on your goals, your budget
             </p>
-            <button className="pt-3 pb-3 pr-10 pl-10 bg-[#547e7e] border-0 text-white hover:bg-[#7d9c9c]">
+            <Button>
               LEARN MORE
-            </button>
+            </Button>
           </div>
         </div>
       </div>
@@ -90,9 +91,10 @@ const CardHome = () => {
               While almost any type of wood can be used to build furniture, some
               woods are a better choice depending on your goals, your budget
             </p>
-            <button className="pt-3 pb-3 pr-10 pl-10 bg-[#547e7e] border-0 text-white hover:bg-[#7d9c9c]">
+         
+            <Button>
               LEARN MORE
-            </button>
+            </Button>
           </div>
         </div>
       </div>

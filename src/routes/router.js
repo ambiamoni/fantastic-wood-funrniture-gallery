@@ -1,8 +1,9 @@
 
 import React from "react";
 import {createBrowserRouter} from 'react-router-dom';
+import Blog from "../components/Blog/Blog.js";
+import Newsletter from "../components/Newsletter/Newsletter.js";
 import Main from "../layout/Main/Main.js";
-import About from "../pages/About/About.js";
 import Home from '../pages/Home/Home.js';
 // import About from '../pages/About/About.js';
 import Login from "../pages/login/Login.js";
@@ -23,8 +24,12 @@ const router = createBrowserRouter([
           element: <Home />,
         },
         {
-          path: '/about',
-          element: <About />,
+          path: '/blog',
+          element: <Blog />,
+        },
+        {
+          path: '/newsletter',
+          element: <Newsletter />,
         },
         {
           path: '/login',

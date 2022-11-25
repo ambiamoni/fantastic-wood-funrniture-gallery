@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button.js';
 
 const Banner = () => {
     return (
@@ -10,9 +11,11 @@ const Banner = () => {
             <p className="mb-5">FIND A SEAT IN OUR SE CALGARY SHOWROOM!</p>
            
           </div>
-          <div className='flex gap-3'>
-           <button className="pt-3 pb-3 pr-8 pl-8 bg-[#547e7e] border-0 text-white hover:bg-[#7d9c9c]">VIEW OUR CATALOGUE</button>
-            <button className="pt-3 pb-3 pr-8 pl-8 bg-[#547e7e] border-0 text-white hover:bg-[#7d9c9c]">CONTACT US</button>
+          <div className='flex gap-3'>         
+          
+          <Button>VIEW OUR CATALOGUE</Button>
+          <Button>CONTACT US</Button>
+          
            </div>
         </div>
       </div>
